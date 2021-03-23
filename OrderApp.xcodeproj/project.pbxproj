@@ -13,6 +13,16 @@
 		52F767BC25F7A8C000EF381F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F767BA25F7A8C000EF381F /* Main.storyboard */; };
 		52F767BE25F7A8C200EF381F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F767BD25F7A8C200EF381F /* Assets.xcassets */; };
 		52F767C125F7A8C200EF381F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F767BF25F7A8C200EF381F /* LaunchScreen.storyboard */; };
+		52F767CA25F7B51D00EF381F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767C925F7B51D00EF381F /* CategoryViewController.swift */; };
+		52F767CD25F7B52C00EF381F /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767CC25F7B52C00EF381F /* OrdersViewController.swift */; };
+		52F767D025F7B55A00EF381F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767CF25F7B55A00EF381F /* MenuViewController.swift */; };
+		52F767D325F7B60A00EF381F /* MenuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767D225F7B60A00EF381F /* MenuDetailViewController.swift */; };
+		52F767DB25F7B8AD00EF381F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767DA25F7B8AD00EF381F /* MenuItem.swift */; };
+		52F767DE25F7BB6D00EF381F /* MenuResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767DD25F7BB6D00EF381F /* MenuResponse.swift */; };
+		52F767E125F7BB9400EF381F /* CategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767E025F7BB9400EF381F /* CategoriesResponse.swift */; };
+		52F767E425F7BBBB00EF381F /* OrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767E325F7BBBB00EF381F /* OrderResponse.swift */; };
+		52F767E725F7D04300EF381F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767E625F7D04300EF381F /* Order.swift */; };
+		52F767EA25F7D18500EF381F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F767E925F7D18500EF381F /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		52F767BD25F7A8C200EF381F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F767C025F7A8C200EF381F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52F767C225F7A8C200EF381F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F767C925F7B51D00EF381F /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		52F767CC25F7B52C00EF381F /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		52F767CF25F7B55A00EF381F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		52F767D225F7B60A00EF381F /* MenuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailViewController.swift; sourceTree = "<group>"; };
+		52F767DA25F7B8AD00EF381F /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		52F767DD25F7BB6D00EF381F /* MenuResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuResponse.swift; sourceTree = "<group>"; };
+		52F767E025F7BB9400EF381F /* CategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesResponse.swift; sourceTree = "<group>"; };
+		52F767E325F7BBBB00EF381F /* OrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResponse.swift; sourceTree = "<group>"; };
+		52F767E625F7D04300EF381F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		52F767E925F7D18500EF381F /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,16 @@
 				52F767BD25F7A8C200EF381F /* Assets.xcassets */,
 				52F767BF25F7A8C200EF381F /* LaunchScreen.storyboard */,
 				52F767C225F7A8C200EF381F /* Info.plist */,
+				52F767C925F7B51D00EF381F /* CategoryViewController.swift */,
+				52F767CC25F7B52C00EF381F /* OrdersViewController.swift */,
+				52F767CF25F7B55A00EF381F /* MenuViewController.swift */,
+				52F767D225F7B60A00EF381F /* MenuDetailViewController.swift */,
+				52F767DA25F7B8AD00EF381F /* MenuItem.swift */,
+				52F767DD25F7BB6D00EF381F /* MenuResponse.swift */,
+				52F767E025F7BB9400EF381F /* CategoriesResponse.swift */,
+				52F767E325F7BBBB00EF381F /* OrderResponse.swift */,
+				52F767E625F7D04300EF381F /* Order.swift */,
+				52F767E925F7D18500EF381F /* MenuController.swift */,
 			);
 			path = OrderApp;
 			sourceTree = "<group>";
@@ -98,6 +128,7 @@
 				TargetAttributes = {
 					52F767B025F7A8C000EF381F = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -137,8 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F767CD25F7B52C00EF381F /* OrdersViewController.swift in Sources */,
+				52F767D025F7B55A00EF381F /* MenuViewController.swift in Sources */,
+				52F767E125F7BB9400EF381F /* CategoriesResponse.swift in Sources */,
+				52F767CA25F7B51D00EF381F /* CategoryViewController.swift in Sources */,
 				52F767B925F7A8C000EF381F /* ViewController.swift in Sources */,
 				52F767B525F7A8C000EF381F /* AppDelegate.swift in Sources */,
+				52F767E725F7D04300EF381F /* Order.swift in Sources */,
+				52F767DB25F7B8AD00EF381F /* MenuItem.swift in Sources */,
+				52F767E425F7BBBB00EF381F /* OrderResponse.swift in Sources */,
+				52F767D325F7B60A00EF381F /* MenuDetailViewController.swift in Sources */,
+				52F767DE25F7BB6D00EF381F /* MenuResponse.swift in Sources */,
+				52F767EA25F7D18500EF381F /* MenuController.swift in Sources */,
 				52F767B725F7A8C000EF381F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU72QMAMTH;
 				INFOPLIST_FILE = OrderApp/Info.plist;
@@ -295,6 +337,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.oguzhanozturk.OrderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU72QMAMTH;
 				INFOPLIST_FILE = OrderApp/Info.plist;
