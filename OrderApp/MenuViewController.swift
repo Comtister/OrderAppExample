@@ -46,7 +46,7 @@ class MenuViewController: UITableViewController {
             
         })
         
-        print(xxx)
+       
         
         
     }
